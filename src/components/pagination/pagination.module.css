@@ -1,0 +1,27 @@
+.pagination a{
+    color: var(--textColor);
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 5px 70px;
+
+}
+
+.pagination{
+    margin: 40px 0 80px;
+}
+
+.pagination a.active {
+    background-color: var(--strtextColor);
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.container{
+    align-items: center;
+    text-align: center;
+}
+
+
+
