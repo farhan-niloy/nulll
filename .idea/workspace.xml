@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d036c77c-3fe0-41b3-b782-2b1defd02e3b" name="Changes" comment="" />
+    <list default="true" id="d036c77c-3fe0-41b3-b782-2b1defd02e3b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +22,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -43,7 +47,7 @@
       <workItem from="1705426254509" duration="351000" />
       <workItem from="1705426616482" duration="1225000" />
       <workItem from="1705427847250" duration="2462000" />
-      <workItem from="1705477229221" duration="453000" />
+      <workItem from="1705477229221" duration="818000" />
     </task>
     <servers />
   </component>
