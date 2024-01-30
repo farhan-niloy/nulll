@@ -1,0 +1,114 @@
+.fh1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 45px;
+
+}
+
+
+.str {
+    color: var(--strtextColor)
+}
+
+.fp {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--textColor2);
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+.buttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border: 1px solid var(--strtextColor);
+    margin-bottom: 40px;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+
+.buttn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.3s;
+}
+
+.buttn:hover span {
+    padding-right: 30px;
+}
+
+
+
+
+.buttn:hover{
+    background-color: var(--strtextColor);
+    color: var(--bg);
+    transition: all 0.3s;
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    .fh1{
+        text-align: center;
+        margin-top: 80px;
+        font-size: 40px;
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .fh1{
+        text-align: center;
+        margin-top: 60px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fh1{
+        text-align: center;
+        margin-top: 40px;
+
+    }
+
+    .fp {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+                line-clamp: 4;
+        -webkit-box-orient: vertical;
+
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .fh1{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 35px;
+
+    }
+
+    .buttn {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}

@@ -1,0 +1,32 @@
+"use client"
+import styles from "./loginPage.module.css"
+import {signIn, useSession} from "next-auth/react";
+import {useRouter} from "next/navigation";
+
+const LoginPage = () => {
+
+    const {data, status} = useSession()
+
+    // const router = useRouter()
+    // if (status === "loading") {
+    //     return  <div className={styles.loading}>Loading...</div>;
+    // }
+    //
+    // if (status==="authenticated") {
+    //     router.push("/")
+    // }
+    console.log(data, status);
+
+    return (
+        <div className={styles.container}>
+            <div className={styles.wrapper}>
+                <div className={styles.socialButton} onClick={()=>signIn("google")}>Sign in with google</div>
+                <div className={styles.socialButton} onClick={()=>signIn("github")}>Sign in with github</div>
+                <div className={styles.socialButton}>Sign in with facebook</div>
+
+            </div>
+        </div>
+    )
+}
+
+export default LoginPage
