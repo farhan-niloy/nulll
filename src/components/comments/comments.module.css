@@ -4,7 +4,8 @@
 
 .title {
     color: var(--strtextColor);
-    margin-bottom: 30px;
+    margin-bottom: 24px;
+    font-size: 30px;
 }
 
 .write {
@@ -17,12 +18,15 @@
 
 .input {
     padding: 20px;
+    color: gray;
     width: 100%;
+    background-color: var(--softBg);
     border-radius: 5px;
 }
 
 .comments {
     margin-top: 50px;
+    color: var(--newTextColor);
 }
 
 .comment {
@@ -31,8 +35,8 @@
 
 .button {
     padding: 16px 20px;
-    background-color: var(--newTextColor);
-    color: var(--textColor2);
+    background-color: #006400;
+    color: white;
     font-weight: bold;
     border: none;
     border-radius: 5px;
@@ -41,6 +45,8 @@
 
 .image {
     border-radius: 50%;
+    width: 30px;
+    height: 30px;
     object-fit: cover;
 }
 
@@ -55,21 +61,23 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-color: ar(--textColor2);
+    font-size: small;
 }
 
 .username {
     font-weight: bold;
+    margin: 0 auto;
+
 }
 
 .date {
-    font-size: 12.5px;
+    font-size: smaller;
     color: var(--textColor2);
 }
 
 .desc {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: smaller;
     font-weight: 300;
     color: var(--newTextColor)
 }
