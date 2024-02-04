@@ -62,10 +62,6 @@
 
 
 
-
-
-
-
 "use client";
 
 import Image from "next/image";
@@ -153,7 +149,7 @@ const WritePage = () => {
                 desc: value,
                 img: media,
                 slug: slugify(title),
-                catSlug: catSlug || "style", //If not selected, choose the general category
+                catSlug: catSlug || "philosophy", //If not selected, choose the general category
             }),
         });
 

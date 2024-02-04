@@ -1,5 +1,90 @@
-.container {
+/*.container {*/
 
+/*}*/
+
+/*.editor {*/
+/*    display: flex;*/
+/*    gap: 20px;*/
+/*    height: 700px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.button,*/
+/*.addButton {*/
+/*    width: 36px;*/
+/*    height: 36px;*/
+/*    border-radius: 50%;*/
+/*    background-color: transparent;*/
+/*    border: 1px solid var(--textColor);*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.addButton {*/
+/*   border-color: #1a8917;*/
+/*}*/
+
+/*.add {*/
+/*    display: flex;*/
+/*    gap: 20px;*/
+/*    color: grey;*/
+/*    position: absolute;*/
+/*    z-index: 999;*/
+/*    width: 100%;*/
+/*    left: 50px;*/
+/*}*/
+
+/*.input {*/
+/*    padding: 50px;*/
+/*    color: grey;*/
+/*    font-size: 64px;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*.input::placeholder{*/
+/*    color: grey;*/
+/*}*/
+
+/*.areaText {*/
+/*    margin-top: 50px;*/
+/*    width: 100%;*/
+
+/*}*/
+
+/*.publish {*/
+/*    position: absolute;*/
+/*    top: 80px;*/
+/*    right: 80px;*/
+/*    padding: 10px 20px;*/
+/*    border: none;*/
+/*    background-color: #1a8917;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*@media screen and (max-width: 640px) {*/
+/*    .publish {*/
+/*        right: 50px;*/
+/*    }*/
+/*}*/
+
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.select{
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    margin-left: 50px;
+    width: max-content;
 }
 
 .editor {
@@ -23,52 +108,44 @@
 }
 
 .addButton {
-   border-color: #1a8917;
+    border-color: #1a8917;
 }
 
 .add {
     display: flex;
     gap: 20px;
-    color: grey;
+    background-color: var(--bg);
     position: absolute;
     z-index: 999;
     width: 100%;
     left: 50px;
 }
 
-.input {
+.input{
     padding: 50px;
-    color: grey;
     font-size: 64px;
     border: none;
     outline: none;
     background-color: transparent;
+    color: var(--textColor);
 }
 
 .input::placeholder{
-    color: grey;
+    color: #b3b3b1;
 }
 
-.areaText {
-    margin-top: 50px;
+.textArea {
     width: 100%;
-
 }
 
-.publish {
+.publish{
     position: absolute;
-    top: 80px;
-    right: 80px;
+    top: 0px;
+    right: 0px;
     padding: 10px 20px;
     border: none;
     background-color: #1a8917;
     color: white;
     cursor: pointer;
-    border-radius: 5px;
-}
-
-@media screen and (max-width: 640px) {
-    .publish {
-        right: 50px;
-    }
+    border-radius: 20px;
 }
