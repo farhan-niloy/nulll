@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -45,12 +42,12 @@ model User {
   image         String?
   accounts      Account[]
   sessions      Session[]
-  Post          Post[]
-  Comment       Comment[]
+  posts         Post[]
+  comments      Comment[]
 }
 
 model VerificationToken {
-  identifier String @id @map("_id")
+  identifier String @id @default(cuid()) @map("_id")
   token      String   @unique
   expires    DateTime
 
@@ -90,5 +87,4 @@ model Comment {
   user      User      @relation(fields: [userEm], references: [email])
   postSlug  String
   post      Post      @relation(fields: [postSlug], references: [slug])
-
 }

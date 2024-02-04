@@ -26,10 +26,9 @@ export default function RootLayout({ children }) {
                 <Navbar/>
                 {children}
               </div>
-              <div >
-                <Footer/>
-              </div>
-
+                <div >
+                    <Footer/>
+                </div>
             </div>
           </ThemeProvider>
         </ThemeContextProvider>

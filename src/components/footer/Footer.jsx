@@ -13,7 +13,7 @@ const Footer = () => {
             <div className={styles.info}>
                     <h1 className={styles.logo}>null</h1>
                 <p className={styles.text}>Man is a rope stretched between the animal and the Superman--a rope over an abyss. A dangerous crossing, a dangerous wayfaring, a dangerous looking-back, a dangerous trembling and halting. What is great in man is that he is a bridge and not a goal: what is lovable in man is that he is an OVER-GOING and a DOWN-GOING.</p>
-                <strong className={styles.text2}>| fernando pessoa</strong>
+                <strong className={styles.text2}>| Friedrich Nietzsche</strong>
             </div>
 
             <div className={styles.links}>

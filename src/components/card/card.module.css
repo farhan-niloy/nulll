@@ -9,12 +9,11 @@
 }
 
 .post:hover{
-    transform: scale(1.04);
+
     cursor: pointer;
     position: relative;
-    box-shadow: 10px 25px;
-    rotate: .4deg;
 }
+
 
 .title {
     font-size: 28px;
