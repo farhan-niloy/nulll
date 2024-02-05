@@ -61,7 +61,6 @@
 // export default WritePage
 
 
-
 "use client";
 
 import Image from "next/image";

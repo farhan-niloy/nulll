@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Null',
-  description: 'Void of my thoughts',
+  description: 'Mind Place',
 }
 
 export default function RootLayout({ children }) {
