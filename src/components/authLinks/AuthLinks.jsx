@@ -12,11 +12,11 @@ const AuthLinks = () => {
    return(
        <>
            {status === "unauthenticated" ? (
-               <Link href={"/login"} className={styles.link}>Login</Link>
+               <Link href={"/login"} className={styles.link}>Login.()</Link>
            ):(
                <>
-               <Link href={"/write"} className={styles.link}>Write</Link>
-               <span className={styles.link} onClick={signOut}>Logout</span>
+               <Link href={"/write"} className={styles.link}>Write.()</Link>
+               <span className={styles.link} onClick={signOut}>Logout.()</span>
                </>
            )}
            <div className={styles.buttn} onClick={()=>setOpen(!open)}>

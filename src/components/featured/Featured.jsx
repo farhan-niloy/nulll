@@ -8,7 +8,7 @@ const Featured = () =>  {
             <div className={styles.fp}>
                 <p>
                     i'm a <strong className={styles.str}>monk, </strong>
-                    who's a<strong className={styles.str}> philosopher, </strong> passionate about ai/ <strong>embedded systems,</strong> and finds <strong className={styles.str}>physics</strong> fun. if i'm living, it's because there exist some great movies and tv shows that I enjoy. here i post my<strong>philosophies</strong> and the philosophies i find interesting.
+                    who's a<strong className={styles.str}> philosopher, </strong> <strong> passionate about Artificial intelligence, embedded systems,</strong> and finds <strong className={styles.str}>physics</strong> fun. if i'm living, it's because there exist some great <strong className={styles.str}>movies</strong> and tv shows that I enjoy. here i post my <strong>philosophies</strong> and the philosophies i find interesting.
                 </p>
             </div>
             <div className={styles.buttn}>

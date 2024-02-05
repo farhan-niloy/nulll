@@ -11,9 +11,9 @@ const Navbar = () =>  {
                 <div className={styles.logo}>null</div>
             </a>
             <div className={styles.link}>
-                <Link href={"/"} className={styles.links}>Home</Link>
-                <Link href={"/"} className={styles.links}>About</Link>
-                <Link href={"/"} className={styles.links}>Contact</Link>
+                <Link href={"/"} className={styles.links}>Home.()</Link>
+                <Link href={"/"} className={styles.links}>About.()</Link>
+                <Link href={"/"} className={styles.links}>Contact.()</Link>
                 <AuthLinks/>
                 <ThemeToggle className={styles.togg}/>
             </div>
