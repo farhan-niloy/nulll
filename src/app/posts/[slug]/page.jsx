@@ -37,13 +37,13 @@ const SinglePage = async ({params}) => {
                             </span>
                     <h2 className={styles.title}> {data?.title}</h2>
 
-                    <div className={styles.user}>
+                    <div className={styles.user} >
                         {data?.user?.image && <div className={styles.userImageContainer}>
-                            <Image src={data.user.image} alt="" fill className={styles.avatar}/>
+                            <Image src={data?.user.image} alt="" fill className={styles.avatar}/>
                         </div>}
                         <a href="https://twitter.com/MrNiloyFarhan" target="_blank">
                             <div className={styles.userTextContainer}>
-                            <span className={styles.username}>{data?.user?.image}</span>
+                            <span className={styles.username}>{data?.user.name}</span>
                                 <span className={styles.lin}>
                                 @niloy-farhan
                             </span>
