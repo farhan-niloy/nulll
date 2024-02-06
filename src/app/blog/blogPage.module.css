@@ -1,8 +1,9 @@
 .title{
-    background-color: var(--softBg);
+    background-color: #1F273AFF;
     color: white;
     padding: 5px 10px;
     text-align: center;
+    margin: 20px 0 0 0;
     text-transform: capitalize;
 }
 

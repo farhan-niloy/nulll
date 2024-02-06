@@ -41,6 +41,8 @@
     text-align: center;
     height: 35px;
     color: var(--textColor2);
+    /*background-color: #6666;*/
+
     background-color: #1a1a1a;
     cursor: pointer;
     padding: 0;
@@ -48,7 +50,9 @@
 }
 
 .button:hover {
+    /*background-color: #1a1a1a;*/
     background-color: #6666;
+
     color: white;
 }
 
