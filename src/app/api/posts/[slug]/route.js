@@ -34,6 +34,7 @@ export const GET = async (req, { params }) => {
             where: { slug },
             data: { views: { increment: 1 } },
             include: { user: true },
+            orderBy: { createdAt: 'desc' },
         });
 
         return new NextResponse(JSON.stringify(post, { status: 200 }));
