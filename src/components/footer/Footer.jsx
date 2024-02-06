@@ -37,7 +37,7 @@ const Footer = () => {
                     <Link className={styles.linkItem} href="/" ><FaHome /> home</Link>
                     <Link className={styles.linkItem} href="/about"><HiInformationCircle /> about</Link>
                     <Link className={styles.linkItem} href="/contact"><IoMdContact /> contact</Link>
-                    <Link className={styles.linkItem} href="/"><IoLogIn /> login</Link>
+                    <Link className={styles.linkItem} href="/login"><IoLogIn /> login</Link>
                 </div>
                 <div className={styles.list}>
                     <span className={styles.listTitle}>networks</span>
