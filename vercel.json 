@@ -1,15 +1,21 @@
 {
   "version": 2,
   "builds": [
-    { "src": "next.config.js", "use": "@vercel/node" }
+    {
+      "src": "next.config.js",
+      "use": "@vercel/node"
+    }
   ],
   "routes": [
-    { "handle": "filesystem" },
-    { "src": "/.*", "dest": "/index.html" }
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
   ],
   "build": {
     "commands": [
-      "prisma generate"
+      "npx prisma generate",
+      "npm run build"  // or "yarn build" if you use yarn
     ]
   }
 }
