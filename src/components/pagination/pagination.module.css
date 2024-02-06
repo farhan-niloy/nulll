@@ -33,7 +33,7 @@
 
 .button {
     color: white;
-    background-color: #1F273AFF;
+    background-color: black;
     padding: 8px 16px;
     text-decoration: none;
     transition: background-color .3s;
