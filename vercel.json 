@@ -11,11 +11,5 @@
       "src": "/(.*)",
       "dest": "/"
     }
-  ],
-  "build": {
-    "commands": [
-      "npx prisma generate",
-      "next build"
-    ]
-  }
+  ]
 }
