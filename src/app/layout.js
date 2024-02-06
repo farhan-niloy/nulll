@@ -6,6 +6,8 @@ import {ThemeContextProvider} from "@/context/ThemeContext";
 import ThemeProvider from "@/providers/ThemeProvider";
 import Copyright from "@/components/copyright/Copyright";
 import AuthProvider from "@/providers/AuthProvider";
+import styles from "@/components/footer/footer.module.css";
+import React from "react";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +30,9 @@ export default function RootLayout({ children }) {
               </div>
                 <div >
                     <Footer/>
+                </div>
+                <div className="copyright">
+                    <Copyright/>
                 </div>
             </div>
           </ThemeProvider>

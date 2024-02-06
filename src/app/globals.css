@@ -60,6 +60,7 @@ a{
 }
 
 
+
 @media screen and (max-width:1536px) {
     .wrapper {
         max-width: 1366px;
@@ -87,6 +88,10 @@ a{
         padding-right: 40px;
     }
 }
+
+
+
+
 
 @media screen and (max-width:640px) {
     .wrapper {
