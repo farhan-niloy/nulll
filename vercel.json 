@@ -15,7 +15,7 @@
   "build": {
     "commands": [
       "npx prisma generate",
-      "npm run build"  // or "yarn build" if you use yarn
+      "next build"
     ]
   }
 }
