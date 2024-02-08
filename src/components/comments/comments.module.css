@@ -2,6 +2,11 @@
     margin-top: 10px;
 }
 
+.login {
+    margin: 10px;
+    color: darkgreen;
+}
+
 .title {
     color: var(--strtextColor);
     margin-bottom: 24px;

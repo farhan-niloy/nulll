@@ -13,7 +13,7 @@ const Card = ({key, item}) => {
 
                 <p className={styles.date} >{item.createdAt.substring(0, 10)}</p>
                 <p className={styles.blogpostContent} >
-                    {item.desc.substring(0, 300)}
+                    {item.desc.substring(0, 150)}
                 </p>
                 <Link href={`/posts/${item.slug}`}>
                 <button className={styles.button}><span><a href={`/posts/${item.slug}`}>read more</a></span></button>
