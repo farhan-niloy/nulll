@@ -1,10 +1,6 @@
 "use client"
 import React from 'react'
 import styles from "./pagination.module.css";
-import Link from "next/link";
-import {AiFillBackward} from "react-icons/ai";
-import {BsFillFastForwardFill} from "react-icons/bs";
-import {FaBackward, FaForward} from "react-icons/fa";
 import {useRouter} from "next/navigation";
 
 const Pagination = ({page, hasPrev, hasNext}) =>  {

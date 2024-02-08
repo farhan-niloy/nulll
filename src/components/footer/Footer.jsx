@@ -5,7 +5,7 @@ import {TfiGithub} from 'react-icons/tfi';
 import {BsLinkedin} from 'react-icons/bs';
 import {RiTwitterXLine} from 'react-icons/ri';
 import {ImFacebook2} from 'react-icons/im';
-import Copyright from "@/components/copyright/Copyright";
+
 import {FaHome} from "react-icons/fa";
 import {HiInformationCircle} from "react-icons/hi";
 import {IoMdContact} from "react-icons/io";
